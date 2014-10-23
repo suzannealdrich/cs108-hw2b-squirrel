@@ -1,0 +1,1 @@
+// Brown.h/*	Brown is a subclass of Squirrel. 	Overrides TreeProbability.*/#include "Squirrel.h"class Brown : public Squirrel {public:	Brown(const char* aName, int aNervousness);		virtual double TreeProbability() const;};

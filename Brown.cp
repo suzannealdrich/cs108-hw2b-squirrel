@@ -1,0 +1,1 @@
+// Brown.cp#include "Brown.h"Brown::Brown(const char* aName, int aNervousness)	: Squirrel(aName, aNervousness) {}	double Brown::TreeProbability() const {	return (Squirrel::TreeProbability() / 2);}

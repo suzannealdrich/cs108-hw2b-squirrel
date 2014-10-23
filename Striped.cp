@@ -1,0 +1,1 @@
+// Striped.cp#include "Striped.h"Striped::Striped(const char* aName, int aNervousness)	: Squirrel(aName, aNervousness) {	ignoreTree = false;}void Striped::Tree() {	if (!ignoreTree) {		Squirrel::Tree();		ignoreTree = true;	} else {		ignoreTree = false;	}}

@@ -1,0 +1,1 @@
+// Striped.h/*	Striped is a subclass of Squirrel.	Adds one state: ignoreTree	Overrides Tree.*/#include "Squirrel.h"class Striped : public Squirrel {public:	Striped(const char* aName, int aNervousness);		virtual void Tree();	private:	bool ignoreTree;};
